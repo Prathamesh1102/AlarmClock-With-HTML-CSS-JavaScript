@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="author" content="Prathamesh Y. Thorat" />
-    <meta property="og:title" content="My AlarmClock Projrct in JavaScript" />
-    <meta property="og:type" content="Website" />
-    <meta property="og:locale" content="en_US" />
-    <link rel="stylesheet" href="style.css" />
-    <title>AlarmClock</title>
-  </head>
-  <body>
-    <div></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="author" content="Prathamesh Y. Thorat" />
+  <meta property="og:title" content="My AlarmClock Projrct in JavaScript" />
+  <meta property="og:type" content="Website" />
+  <meta property="og:locale" content="en_US" />
+  <link rel="stylesheet" href="style.css" />
+  <title>AlarmClock</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>AlarmClock</h1>
+    <div class="content">
+      <div class="column">
+        <select>
+          <option value="hour" selected hidden>Hour</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+        <div class="column">
+          <select>
+            <option value="min" selected hidden>Minute</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="AM/PM" selected hidden>AM/PM</option>
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+        </div>
+      </div>
+    <button>Set Alarm</button>
+    </div>
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
