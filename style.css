@@ -20,14 +20,22 @@ body{
     border-radius: 35px;
 }
 .container h1{
-    font-size: 40px;
-    margin: 20px 0;
-    font-weight:500;
+    font-size: 60px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight:500;   
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 15px;
 }
 .container .content{
     width: 100%;
     justify-content: space-between;
-
+}
+.container .content.disable{
+    opacity: 0.6;
+    pointer-events: none;
 }
 .container button{
     font-size: 20px;
